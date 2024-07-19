@@ -1,15 +1,15 @@
-import { Provider } from "react-redux";
+// import { Provider } from "react-redux";
 import "./App.css";
-import store from "./redux/app/store";
+// import store from "./redux/app/store";
 import RouteConfig from "./routes/RouteConfig";
 
 function App() {
   return (
     <>
-      <Provider store={store}>
+      {/* <Provider store={store}> */}
         <RouteConfig />
-        <h1>Hello</h1>
-      </Provider>
+        <h1 className="text-3xl text-red-500">Hello</h1>
+      {/* </Provider> */}
     </>
   );
 }
